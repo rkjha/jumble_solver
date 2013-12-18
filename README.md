@@ -2,7 +2,7 @@
 
 It's a ruby gem for solving jumble word puzzles.
 
-For a given word, it will return the all possible combination of valid words.
+It will return all the possible valid combination for the given word.
 
 ## Installation
 
@@ -20,8 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-jumble_solver.solve("rat")
-	 => ["art", "rat", "tar"]
+    jumble_solver.solve("rat")
+	  => ["art", "rat", "tar"]
 
 ### Website
 http://jumblesolver.me
