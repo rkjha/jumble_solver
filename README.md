@@ -20,8 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-    jumble_solver.solve("rat")
+    jw = JumbleSolver::Jumble.new
+    jw.solve("rat")
 	  => ["art", "rat", "tar"]
+	  jw.solve("huohuo")
+	  => []
 
 ### Website
 http://jumblesolver.me
