@@ -22,9 +22,9 @@ Or install it yourself as:
 
     jw = JumbleSolver::Jumble.new
     jw.solve("rat")
-	  => ["art", "rat", "tar"]
-	  jw.solve("huohuo")
-	  => []
+    => ["art", "rat", "tar"]
+    jw.solve("huohuo")
+    => []
 
 ### Website
 http://jumblesolver.me
